@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Label" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="IsCompact" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ProgressRing">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="MediaEnded" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="ScaleX" />
+      <RootProperty Name="ScaleY" />
+    </RootType>
+    <RootType FullName="XboxMusicCortana.MainPage" />
+  </Roots.RootTypes>
+</Roots>

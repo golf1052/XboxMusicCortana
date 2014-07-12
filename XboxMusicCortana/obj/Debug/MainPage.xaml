@@ -9,14 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-    	<AppBarButton x:Name="searchButton" HorizontalAlignment="Center" Icon="Microphone" Label="" VerticalAlignment="Center" IsCompact="True" RenderTransformOrigin="0.5,0.5" Click="searchButton_Click">
+    	<AppBarButton x:ConnectionId='1' x:Name="searchButton" HorizontalAlignment="Center" Icon="Microphone" Label="" VerticalAlignment="Center" IsCompact="True" RenderTransformOrigin="0.5,0.5"                           >
     		<AppBarButton.RenderTransform>
     			<CompositeTransform ScaleX="1.5" ScaleY="1.5"/>
     		</AppBarButton.RenderTransform>
     	</AppBarButton>
     	<ProgressRing x:Name="searchRing" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1,12,0,0"/>
-    	<MediaElement x:Name="mediaElement" HorizontalAlignment="Left" VerticalAlignment="Top" MediaEnded="mediaElement_MediaEnded"/>
+    	<MediaElement x:ConnectionId='2' x:Name="mediaElement" HorizontalAlignment="Left" VerticalAlignment="Top"                                     />
     	<TextBlock x:Name="trackInfoTextBlock" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="0,100,0,0"/>
 
     </Grid>
 </Page>
+

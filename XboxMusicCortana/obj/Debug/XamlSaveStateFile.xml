@@ -1,4 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\sanders\skydrive\projects\xboxmusiccortana\xboxmusiccortana\obj\debug\intermediatexaml\xboxmusiccortana.exe" HashGuid="b99f297e-7e46-ce65-6953-4e642f5948bd" />
+    <ReferenceAssembly PathName="c:\users\sanders\skydrive\projects\xboxmusiccortana\packages\newtonsoft.json.6.0.3\lib\portable-net45+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="c79997c3-e7ec-c6d9-80a0-b6fbe9a32ff1" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

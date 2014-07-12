@@ -531,5 +531,3 @@ namespace XboxMusicCortana.XboxMusicCortana_XamlTypeInfo
 
 
 
-
-
